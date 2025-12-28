@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo2.css">
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <form name="Formulario" id="Formulario" method="get" action="">
+        <h2>FORMULARIO</h2>
+        <div>
+            <label class="label" for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre">
+        </div>
+        <div>
+            <label class="label"  for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" id="Apellido">
+        </div>
+        <div>
+            <label  class="label"  for="comuna">Comuna</label>
+            <select name="comuna" id="comuna">
+                <option value="">Seleccione Comuna</option>
+                <option value="0">Macul</option>
+                <option value="1">Puente Alto</option>
+                <option value="2">La Florida</option>
+                <option value="3">Renca</option>
+            </select>
+        </div>
+        <div>
+            <label  class="label"  for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+
+        <div class="centro">
+            <input type="submit" value="Enviar" name="Enviar" id="Enviar">
+        </div>
+
+    </form>
+    <footer>
+        <span>
+            <p>Bruno Exequiel Rojas Maldonado</p>
+            <p>Programación Front End // (TI2031/3231D/D Santiago Sur IEI)</p>
+        </span>
+    </footer>
+</body>
+</html>

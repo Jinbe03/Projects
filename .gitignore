@@ -1,0 +1,24 @@
+# Python / Django
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Flutter / Dart
+build/
+.dart_tool/
+.pub/
+.pub-cache/
+windows/
+linux/
+macos/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

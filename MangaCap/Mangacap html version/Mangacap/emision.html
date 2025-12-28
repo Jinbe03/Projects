@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calendario.css">
+    <script src="js/calendario.js" defer></script>
+    <title>Emision</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="lobby.html"><img src="img/OIG4.jpeg" alt="Logo de Mangacap" style="cursor: pointer;"></a>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+        </div>
+        <div class="menu">
+            <a href="categorias.html">Categorías</a>
+            <a href="emision.html">Emisión</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Calendario de Emision</h2>
+        <div class="calendario">
+            <div class="calendario-header">
+                <button class="prev" onclick="cambiarMes(-1)">&#10094;</button>
+                <span id="mes-anio"></span>
+                <button class="next" onclick="cambiarMes(1)">&#10095;</button>
+            </div>
+            <div class="calendario-week-day">
+                <div>Lun</div>
+                <div>Mar</div>
+                <div>Mié</div>
+                <div>Jue</div>
+                <div>Vie</div>
+                <div>Sab</div>
+                <div>Dom</div>
+            </div>
+            <div id="calendario-dias" class="calendario-dias"></div>
+        </div>
+    </div>
+</body>
+</html>
